@@ -39,7 +39,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install uv --quiet
-          uv pip install -r requirements.txt
+          uv pip install -r requirements.txt --system
 
       # Build the book
       - name: Build the book

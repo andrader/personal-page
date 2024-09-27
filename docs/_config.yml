@@ -81,7 +81,7 @@ html:
 #   colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
 
 repository:
-  url                       : https://github.com/andradersf/personal-page  # The URL to your book's repository
+  url                       : https://github.com/andrader/personal-page  # The URL to your book's repository
   path_to_book              : "docs"  # A path to your book's folder, relative to the repository root.
   branch                    : main  # Which branch of the repository should be used when creating links
 
