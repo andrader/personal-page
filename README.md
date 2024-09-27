@@ -1,6 +1,6 @@
 # Rubens Andrade
 
-Repositório criado para a página pessoal criado com `jupyter-book`.
+Personal page repository created with `jupyter-book`.
 
 ## Usage
 
@@ -24,7 +24,7 @@ For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](h
 
 ## Contributors
 
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/andradersf/rubens_andrade/graphs/contributors).
+We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/andrader/personal-page/graphs/contributors).
 
 ## Credits
 
