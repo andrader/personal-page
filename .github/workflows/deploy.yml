@@ -30,9 +30,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Setup Python
+        uses: actions/setup-python@v5.2.0
+        with:
+          python-version: 3.11
+
       # Install dependencies
-      - name: Install uv
-        uses: astral-sh/setup-uv@v3
+      - name: Setup uv
+        uses: yezz123/setup-uv@v4
+        with:
+          uv-venv: venv # virtual environment name to create and activate.
+          
 
       - name: Install dependencies
         run: |
