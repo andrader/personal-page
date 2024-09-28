@@ -31,15 +31,14 @@ jobs:
       - uses: actions/checkout@v3
 
       # Install dependencies
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
         with:
-          python-version: 3.11
+          enable-cache: true
 
       - name: Install dependencies
         run: |
-          pip install uv --quiet
-          uv pip install -r requirements.txt --system
+          uv pip install -r requirements.txt
 
       # Build the book
       - name: Build the book
