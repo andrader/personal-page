@@ -2,8 +2,19 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+root: index
+parts:
+- caption: "Links"
+  chapters:
+  - url: https://github.com/andrader
+    title: GitHub
+  - url: https://linkedin.com/in/rubens-andrade-filho
+    title: LinkedIn
+- caption: "Notes and projects"
+  chapters:
+  - file: mestrado
+    sections:
+    - file: mestrado/mae5702
+    - file: mestrado/mae5911
+      sections:
+      - glob: mestrado/mae5911/lista*
